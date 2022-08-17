@@ -9,6 +9,7 @@ import css from '../styles/Home.module.css'
 import SkillsSection from '../src/Components/SkillsSection/SkillsSection'
 import AboutSection from '../src/Components/AboutSection/AboutSection'
 import ContactSection from '../src/Components/ContactSection/ContactSection'
+import Script from 'next/script'
 
 import Footer from '../src/Components/Footer/Foorter'
 
@@ -19,7 +20,6 @@ export default function Home() {
     <div className={css.container}>
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -32,8 +32,10 @@ export default function Home() {
         <meta property="og:image:height" content="1024"/>
         <meta name="virtual porfolio" content="virtual porfolio by Youssef Boulmaf" />
         <meta name="viewport" content="width=device-width, minimum-scale=1"></meta>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-75EDL53ZS4"></script>
-        <script
+      </Head>
+        <Script id="googleAnalyticsOne" async src="https://www.googletagmanager.com/gtag/js?id=G-75EDL53ZS4" strategy="lazyOnload"/>
+        <Script
+        id="googleAnalytics"
           dangerouslySetInnerHTML={{
             __html: `
           window.dataLayer = window.dataLayer || [];
@@ -43,8 +45,7 @@ export default function Home() {
           gtag('config', 'G-75EDL53ZS4');
         `,
           }}
-        />
-      </Head>
+          strategy="lazyOnload"/>
       <div className={css.main}>
         <TopBar />
         <Page>

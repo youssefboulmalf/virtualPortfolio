@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import css from './AboutSection.module.css';
 import Crossword from '../Crossword/Crossword';
 import img from '../../img/me.jpg';
+import Image from 'next/image';
 
 export const AboutSection = (props) => {
 
@@ -16,7 +17,7 @@ export const AboutSection = (props) => {
         <div className={css.aboutSection}>
             <div className={css.aboutSectionText}>
                 <h1 className={css.aboutTitle}>About me</h1>
-                <img className={css.image} src={img.src}/>
+                <Image layout='fixed' alt={'great picture'} placeholder='blur' className={css.image} src={img}/>
                 <div className={css.aboutText}>{breaklineDescription(aboutMessage)}</div>
             </div>
             <div className={css.crossWord}>
