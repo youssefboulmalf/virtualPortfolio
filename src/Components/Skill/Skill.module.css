@@ -1,0 +1,56 @@
+.skill{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #000e14;
+    height: 300px;
+    width: 210px;
+    border-radius: 15px;
+    color: white;
+}
+.levels{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+}
+.skillBar{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+.skillName{
+    font-weight: 500;
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+}
+.bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 60px;
+    width: 30px;
+    height: 200px;
+    background-color: gray;
+    border-radius: 10px;
+    transform: scale(1.005);
+}
+.innerBar{
+    background: repeating-linear-gradient(
+        45deg,
+        #80dcff,
+        #80dcff 30px,
+        #bfeeff 30px,
+        #bfeeff 60px
+      );
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+
+    /* fix uneven edgeds */
+    transform: scale(1.005);
+}

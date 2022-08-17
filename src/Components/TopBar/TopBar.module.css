@@ -1,0 +1,126 @@
+.topBar{
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    justify-content: space-evenly;
+    min-height: 70px;
+    align-items: center;
+}
+
+.navButton{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0 30px;
+}
+.navButton:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+.socialButtons{
+    height: 24px
+}
+.socialButton{
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    margin: 0 30px;
+}
+.socialButton > svg{
+    height: 24px;
+    width: 24px;
+    fill: white;
+    cursor: pointer;
+}
+.socialButton > svg path{
+    fill: white;
+}
+.socialButton:hover svg path{
+    fill: gray;
+}
+.menuButton{
+    background: transparent;
+    border: none;
+    position: fixed;
+    z-index: 21;
+    left: 0;
+    top: 0;
+}
+.menuButton>svg{
+    fill: #297ea6;
+    width: 40px;
+    height: 40px;
+}
+.closeButton{
+    background: transparent;
+    align-self: flex-end;
+    border: none;
+}
+.closeButton>svg{
+    width: 35px;
+    height: 35px;
+    fill: #297ea6;
+}
+.sideMenuOpen{
+    display: flex;
+    flex-direction: column;
+    z-index: 20;
+    position: fixed;
+    width: 70%;
+    height: 100%;
+    background: rgb(39, 51, 89, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    left: 0;
+    top: 0;
+    align-items: center;
+}
+.mobileNav{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: space-around;
+    align-items: center;
+}
+.sideMenuClosed{
+    display: none;
+}
+.navButtonMobile{
+    margin-bottom: 60px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0 30px;
+    cursor: pointer;
+}
+.socialButtonsMobile{
+    display: flex;
+    flex-direction: row;
+    height: 24px;
+}
+.socialButtonMobile{
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    margin: 0 30px;
+    cursor: pointer;
+}
+.socialButtonMobile > svg{
+    fill: grey;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+

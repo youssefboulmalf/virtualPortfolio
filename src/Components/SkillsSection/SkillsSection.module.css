@@ -1,0 +1,112 @@
+@keyframes rotateMenu {
+    0% {
+      transform: rotateX(-90deg)
+    }
+    70% {
+      transform: rotateX(20deg)
+    }
+    100% {
+      transform: rotateX(0deg)
+    }
+  }
+
+.skillsSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+.skillsTitleText{
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 33px;
+    font-weight: bold;
+    align-self: baseline;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.skillsTitle{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Space Grotesk', sans-serif;
+    color: gray;
+    font-size: 25px;
+    margin: 40px auto 0px 20px;
+}
+.skillsTitle:hover{
+  cursor: pointer;
+  color: darkgray;
+
+}
+.skillsTitle:hover > svg >path{
+  fill: darkgray;
+  
+}
+.skillsTitle > p{
+    margin: 2px;
+    margin-right: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: #e63918;
+}
+.skillsContainerOpen{
+    display: grid;
+    grid-template-columns: repeat(1, 200px);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    animation: rotateMenu 300ms ease-in-out forwards
+}
+.skillsContainerClosed{
+    display: block;
+    width: 0;
+    height: 0;
+    display: none;
+}
+@media (min-width: 780px){
+  .skillsSection{
+    margin: 60px 60px;
+    max-width: 700px;
+    align-items: baseline;
+  }
+  .skillsContainerOpen{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    animation: rotateMenu 300ms ease-in-out forwards
+    
+  }
+}
+@media (min-width: 1040px){
+  .skillsSection{
+    margin: 60px 60px;
+    max-width: 1500px;
+    align-items: baseline;
+}
+.skillsContainerOpen{
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  animation: rotateMenu 300ms ease-in-out forwards
+
+}
+}
+
+

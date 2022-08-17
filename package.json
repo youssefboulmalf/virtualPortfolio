@@ -1,0 +1,24 @@
+{
+  "name": "virtualPortfolio",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "kute.js": "^2.2.2",
+    "next": "^12.1.4",
+    "nodemailer": "^6.7.8",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "react-scroll": "^1.8.4"
+  },
+  "devDependencies": {
+    "eslint": "8.5.0",
+    "eslint-config-next": "12.0.7"
+  }
+}

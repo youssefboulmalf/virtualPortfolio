@@ -1,0 +1,50 @@
+.contactSection{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.bigHead{
+    color: white;
+}
+
+.contactInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.ContactForm{
+    font-size: 18px;
+    margin: 40px 0 60px 0;
+}
+.phoneNumber{
+    letter-spacing: 0.2em;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.email{
+    font-size: 1.2em;
+}
+.tryHackMe{
+    transform: scale(0.8);
+}
+.info{
+    margin: 0;
+    font-family: 'Space Grotesk', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    align-items: flex-start;
+    padding-bottom: 60px;
+    color: gray;
+}
+@media (min-width: 780px){
+    .contactInfo{
+        flex-direction: row;
+    }
+    .ContactForm{
+        margin-right: 70px;
+    }
+    .info{
+        margin-left: 70px;
+    }
+}
