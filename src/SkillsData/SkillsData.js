@@ -25,7 +25,7 @@ export const skills = [
         skillLevel: 70,
     },
     {
-        skillName: "Java",
+        skillName: "Golang",
         skillType: "language",
         skillLevel: 30,
     },

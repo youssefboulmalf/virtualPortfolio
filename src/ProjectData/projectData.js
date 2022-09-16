@@ -29,6 +29,15 @@ export const projects = [
         imageName: "topy.jpg"
     },
     {
+        name: "Particle-Life-Go",
+        description: `This is a go vesion of the Particle Life Simulation made by hunar4321. A simple program to simulate primitive Artificial Life using simple rules of attraction or repulsion among atom-like particles, producing complex self-organzing life-like patterns. Excluding the GUI elements, the code is less than a page.`,
+        language: [
+            "Golang",
+        ],
+        link: "https://github.com/youssefboulmalf/Particle-Life-Go",
+        imageName: "creation.jpg"
+    },
+    {
         name: "PYRSA",
         description: `PYRSA is a rsa key encryption tool that lets the user create rsa key pairs, encrypt messages, decrpyt messages and load in key pairs.`,
         language: [
@@ -55,5 +64,4 @@ export const projects = [
         link: "https://github.com/youssefboulmalf/The_markerplace_writeup",
         imageName: "marketplace.png"
     },
-    
 ]
