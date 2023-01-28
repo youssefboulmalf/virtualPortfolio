@@ -1,8 +1,8 @@
 export const projects = [
     {
         name: "Djammin",
-        description: `Djammin is a comission based social platform where dj's can create their own dj listing and bookers can book dj's directly.\n
-                With over 70 diffrent listings you can choose a dj specifically to your unique needs.`,
+        description: `Djammin was a comission based social platform where dj's can create their own dj listing and bookers can book dj's directly.\n
+                With over 70 diffrent listings you could choose a dj specifically to your unique needs.`,
         language: [
             "Redux", "React", "NodeJs"
         ],
@@ -27,6 +27,15 @@ export const projects = [
         ],
         link: "https://topy.vercel.app/",
         imageName: "topy.jpg"
+    },
+    {
+        name: "Open Ai voice chat",
+        description: `A simple react app that takes a users voice input and generates a speech response from the one and only GPT3`,
+        language: [
+            "React"
+        ],
+        link: "https://github.com/youssefboulmalf/React-OpenAi-Voice-Chat",
+        imageName: "chat.jpg"
     },
     {
         name: "PYRSA",
