@@ -48,7 +48,7 @@ export const projects = [
     description: `Return-to-libc/ret2libc -64bit ELF ASLR - HTB Cyber Apocalypse 2023 CTF Pandora's box`,
     language: ["Linux", "GDB", "Ghidra", "bufferoverflow"],
     link: "https://github.com/youssefboulmalf/Pandora-sbox---ret2libc",
-    imageName: "pb.png",
+    imageName: "pb.jpg",
   },
   {
     name: "Babier stack overflow write-up",
