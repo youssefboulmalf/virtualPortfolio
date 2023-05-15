@@ -38,10 +38,17 @@ export const projects = [
   },
   {
     name: "PYRSA",
-    description: `PYRSA is a rsa key encryption tool that lets the user create rsa key pairs, encrypt messages, decrypt messages and load in key pairs.`,
+    description: `PYRSA is an rsa key encryption tool that lets the user create rsa key pairs, encrypt messages, decrypt messages and load in key pairs.`,
     language: ["Python", "RSA"],
     link: "https://github.com/youssefboulmalf/PYRSA",
     imageName: "pyrsa.jpg",
+  },
+    {
+    name: "Pandora's box ret2libc",
+    description: `Return-to-libc/ret2libc -64bit ELF ASLR - HTB Cyber Apocalypse 2023 CTF Pandora's box`,
+    language: ["Linux", "GDB", "Ghidra", "bufferoverflow"],
+    link: "https://github.com/youssefboulmalf/Pandora-sbox---ret2libc",
+    imageName: "pb.png",
   },
   {
     name: "Babier stack overflow write-up",
