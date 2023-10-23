@@ -62,6 +62,6 @@ export const skills = [
     {
         skillName: "Cybersecurity",
         skillType: "other",
-        skillLevel: 55,
+        skillLevel: 80,
     },
 ]

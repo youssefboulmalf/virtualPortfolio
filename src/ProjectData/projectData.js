@@ -1,10 +1,10 @@
 export const projects = [
   {
     name: "Djammin",
-    description: `Djammin was a comission based social platform where dj's can create their own dj listing and bookers can book dj's directly.\n
+    description: `Djammin was a comission based social platform where dj's could create their own dj listing and bookers can book dj's directly.\n
                 With over 70 different listings you could choose a dj specifically to your unique needs.`,
     language: ["Redux", "React", "NodeJs"],
-    link: "https://djamm.in/",
+    link: "",
     imageName: "djammin.jpg",
   },
 
