@@ -12,7 +12,7 @@ export const skills = [
     {
         skillName: "Python",
         skillType: "language",
-        skillLevel: 80,
+        skillLevel: 70,
     },
     {
         skillName: "HTML",
@@ -22,17 +22,22 @@ export const skills = [
     {
         skillName: "CSS",
         skillType: "language",
-        skillLevel: 70,
+        skillLevel: 85,
     },
     {
         skillName: "Golang",
+        skillType: "language",
+        skillLevel: 10,
+    },
+    {
+        skillName: "C/C++",
         skillType: "language",
         skillLevel: 30,
     },
     {
         skillName: "React",
         skillType: "library",
-        skillLevel: 70,
+        skillLevel: 80,
     },
     {
         skillName: "Redux",

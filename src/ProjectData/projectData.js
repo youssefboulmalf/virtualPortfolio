@@ -7,14 +7,6 @@ export const projects = [
     link: "",
     imageName: "djammin.jpg",
   },
-
-  {
-    name: "PYCHAT",
-    description: `PYCHAT lets you chat with other users connected to the PYCHAT server using an encrypted data stream between client and server.`,
-    language: ["Python", "Websockets", "Tkinter", "RSA"],
-    link: "https://github.com/youssefboulmalf/PYCHAT",
-    imageName: "pychat.jpg",
-  },
   {
     name: "Topy tours",
     description: `The Topy tours website is a Tanzanian safari tour booking E-commerce site with a fully working custom api, database and admin panel build with Typescript.`,
@@ -22,6 +14,14 @@ export const projects = [
     link: "https://topy.vercel.app/",
     imageName: "topy.jpg",
   },
+  {
+    name: "PYCHAT",
+    description: `PYCHAT lets you chat with other users connected to the PYCHAT server using an encrypted data stream between client and server.`,
+    language: ["Python", "Websockets", "Tkinter", "RSA"],
+    link: "https://github.com/youssefboulmalf/PYCHAT",
+    imageName: "pychat.jpg",
+  },
+
   {
     name: "Open Ai voice chat",
     description: `A simple react app that takes a user's voice input and generates a speech response from the one and only GPT3`,
