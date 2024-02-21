@@ -15,6 +15,13 @@ export const projects = [
     imageName: "topy.jpg",
   },
   {
+    name: "Blogpost: Building AD Home Lab",
+    description: ` I decided to create a tutorial to explain in detail how one can set up an AD home lab.`,
+    language: ["Active Directory", "Vmware"],
+    link: "https://medium.com/@WhiteSombrero/building-your-active-directory-home-lab-with-siem-xdr-part-1-c10b0922c645",
+    imageName: "server.jpg",
+  },
+  {
     name: "PYCHAT",
     description: `PYCHAT lets you chat with other users connected to the PYCHAT server using an encrypted data stream between client and server.`,
     language: ["Python", "Websockets", "Tkinter", "RSA"],
