@@ -22,6 +22,13 @@ export const projects = [
     imageName: "server.jpg",
   },
   {
+    name: "Shortform Video Social Media Dangers",
+    description: `My final thesis project, a Next.js React website that explores the dangers of shortform video social media platforms like TikTok, Instagram Reels, and YouTube Shorts.`,
+    language: ["React", "Next JS"],
+    link: "https://sfv-awarness.vercel.app/",
+    imageName: "tiktok.png",
+  },
+  {
     name: "PYCHAT",
     description: `PYCHAT lets you chat with other users connected to the PYCHAT server using an encrypted data stream between client and server.`,
     language: ["Python", "Websockets", "Tkinter", "RSA"],
